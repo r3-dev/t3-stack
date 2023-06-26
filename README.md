@@ -1,6 +1,21 @@
-# Create T3 App
+# R3Dev Stack based on [T3 Stack](https://create.t3.gg)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Requirements
+
+- VS Code - https://code.visualstudio.com
+- Doppler CLI - https://docs.doppler.com/docs/cli
+- Volta - https://docs.volta.sh/guide/getting-started
+- Docker - https://docs.docker.com/get-started/
+
+## Get Started
+
+- Create new repository from template
+- Clone repository
+- Install dependencies `yarn install`
+- Setup Doppler `doppler setup`
+- Start Docker compose `docker-compose up -d`
+- Migrate database `yarn prisma:migrate`
+- Start project `yarn dev`
 
 ## What's next? How do I make an app with this?
 
