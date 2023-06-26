@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.confirmSync": false,
+  "git.branchProtectionPrompt": "alwaysPrompt",
+  "git.branchProtection": ["main", "master", "gh-pages"]
+}
